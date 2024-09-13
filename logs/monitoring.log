@@ -284,3 +284,133 @@ Metrics at 2024-09-09T20:03:36+05:00 - CPU: 2.46%, Memory: 28.66%, Disk I/O: 214
 Metrics at 2024-09-09T20:03:41+05:00 - CPU: 3.13%, Memory: 17.76%, Disk I/O: 21460.09 MB/s
 Metrics at 2024-09-09T20:03:46+05:00 - CPU: 3.30%, Memory: 18.13%, Disk I/O: 21461.41 MB/s
 Metrics at 2024-09-09T20:03:51+05:00 - CPU: 2.41%, Memory: 18.50%, Disk I/O: 21466.87 MB/s
+Metrics at 2024-09-09T20:07:22+05:00 - CPU: 100.00%, Memory: 11.03%, Disk I/O: 22023.13 MB/s
+ALERT: CPU Usage exceeded threshold with value: 100.00
+Metrics at 2024-09-09T20:07:28+05:00 - CPU: 2.16%, Memory: 21.89%, Disk I/O: 22041.71 MB/s
+Metrics at 2024-09-09T20:07:33+05:00 - CPU: 2.28%, Memory: 22.29%, Disk I/O: 22042.10 MB/s
+Metrics at 2024-09-09T20:07:38+05:00 - CPU: 3.77%, Memory: 22.67%, Disk I/O: 22099.95 MB/s
+Metrics at 2024-09-09T20:07:43+05:00 - CPU: 5.87%, Memory: 23.05%, Disk I/O: 22115.29 MB/s
+ALERT: CPU Usage exceeded threshold with value: 5.87
+Metrics at 2024-09-09T20:07:50+05:00 - CPU: 3.50%, Memory: 24.72%, Disk I/O: 22116.03 MB/s
+Metrics at 2024-09-09T20:07:55+05:00 - CPU: 2.15%, Memory: 25.09%, Disk I/O: 22116.89 MB/s
+Metrics at 2024-09-09T20:08:00+05:00 - CPU: 1.64%, Memory: 25.47%, Disk I/O: 22118.01 MB/s
+Metrics at 2024-09-09T20:08:05+05:00 - CPU: 1.57%, Memory: 25.85%, Disk I/O: 22130.18 MB/s
+Metrics at 2024-09-09T20:08:10+05:00 - CPU: 4.11%, Memory: 26.22%, Disk I/O: 22131.60 MB/s
+Metrics at 2024-09-09T20:08:15+05:00 - CPU: 2.28%, Memory: 26.61%, Disk I/O: 22131.77 MB/s
+Metrics at 2024-09-09T20:08:20+05:00 - CPU: 3.09%, Memory: 26.98%, Disk I/O: 22134.51 MB/s
+Metrics at 2024-09-09T20:08:25+05:00 - CPU: 2.53%, Memory: 27.36%, Disk I/O: 22142.92 MB/s
+Metrics at 2024-09-09T20:08:30+05:00 - CPU: 1.98%, Memory: 27.74%, Disk I/O: 22143.07 MB/s
+Metrics at 2024-09-09T20:08:35+05:00 - CPU: 4.27%, Memory: 28.12%, Disk I/O: 22143.62 MB/s
+Metrics at 2024-09-09T20:08:40+05:00 - CPU: 2.16%, Memory: 28.50%, Disk I/O: 22144.34 MB/s
+Metrics at 2024-09-09T20:08:45+05:00 - CPU: 1.98%, Memory: 28.88%, Disk I/O: 22147.07 MB/s
+Metrics at 2024-09-09T20:08:50+05:00 - CPU: 2.50%, Memory: 29.26%, Disk I/O: 22147.25 MB/s
+Metrics at 2024-09-09T20:08:55+05:00 - CPU: 9.88%, Memory: 18.09%, Disk I/O: 22149.17 MB/s
+ALERT: CPU Usage exceeded threshold with value: 9.88
+Metrics at 2024-09-09T20:09:02+05:00 - CPU: 4.99%, Memory: 20.13%, Disk I/O: 22192.99 MB/s
+Metrics at 2024-09-09T20:09:07+05:00 - CPU: 5.80%, Memory: 20.50%, Disk I/O: 22214.16 MB/s
+ALERT: CPU Usage exceeded threshold with value: 5.80
+Metrics at 2024-09-09T20:09:13+05:00 - CPU: 4.99%, Memory: 22.27%, Disk I/O: 22214.70 MB/s
+Metrics at 2024-09-09T20:09:18+05:00 - CPU: 4.25%, Memory: 22.64%, Disk I/O: 22227.78 MB/s
+Metrics at 2024-09-09T20:09:23+05:00 - CPU: 3.34%, Memory: 23.01%, Disk I/O: 22228.78 MB/s
+Metrics at 2024-09-09T20:09:28+05:00 - CPU: 3.09%, Memory: 23.38%, Disk I/O: 22229.24 MB/s
+Metrics at 2024-09-09T20:09:33+05:00 - CPU: 6.43%, Memory: 23.75%, Disk I/O: 22244.31 MB/s
+ALERT: CPU Usage exceeded threshold with value: 6.43
+Metrics at 2024-09-09T20:09:39+05:00 - CPU: 6.93%, Memory: 25.44%, Disk I/O: 22246.38 MB/s
+ALERT: CPU Usage exceeded threshold with value: 6.93
+Metrics at 2024-09-09T20:09:46+05:00 - CPU: 2.23%, Memory: 27.08%, Disk I/O: 22290.30 MB/s
+Metrics at 2024-09-09T20:09:51+05:00 - CPU: 3.09%, Memory: 27.45%, Disk I/O: 22291.34 MB/s
+Metrics at 2024-09-09T20:09:56+05:00 - CPU: 5.80%, Memory: 27.82%, Disk I/O: 22291.97 MB/s
+ALERT: CPU Usage exceeded threshold with value: 5.80
+Metrics at 2024-09-09T20:10:02+05:00 - CPU: 5.91%, Memory: 29.54%, Disk I/O: 22303.38 MB/s
+ALERT: CPU Usage exceeded threshold with value: 5.91
+Metrics at 2024-09-09T20:10:08+05:00 - CPU: 5.03%, Memory: 19.72%, Disk I/O: 22304.25 MB/s
+ALERT: CPU Usage exceeded threshold with value: 5.03
+Metrics at 2024-09-09T20:10:14+05:00 - CPU: 5.62%, Memory: 21.41%, Disk I/O: 22306.21 MB/s
+ALERT: CPU Usage exceeded threshold with value: 5.62
+Metrics at 2024-09-09T20:10:20+05:00 - CPU: 3.66%, Memory: 23.05%, Disk I/O: 22307.92 MB/s
+Metrics at 2024-09-09T20:10:25+05:00 - CPU: 4.57%, Memory: 23.42%, Disk I/O: 22309.51 MB/s
+Metrics at 2024-09-09T20:10:30+05:00 - CPU: 4.77%, Memory: 23.79%, Disk I/O: 22310.07 MB/s
+Metrics at 2024-09-09T20:10:35+05:00 - CPU: 3.26%, Memory: 24.16%, Disk I/O: 22310.43 MB/s
+Metrics at 2024-09-09T20:10:40+05:00 - CPU: 3.42%, Memory: 24.53%, Disk I/O: 22311.04 MB/s
+Metrics at 2024-09-09T20:10:45+05:00 - CPU: 1.58%, Memory: 24.90%, Disk I/O: 22311.96 MB/s
+Metrics at 2024-09-09T20:10:50+05:00 - CPU: 1.64%, Memory: 25.27%, Disk I/O: 22312.45 MB/s
+Metrics at 2024-09-09T20:10:55+05:00 - CPU: 1.67%, Memory: 25.65%, Disk I/O: 22312.79 MB/s
+Metrics at 2024-09-09T20:11:00+05:00 - CPU: 7.20%, Memory: 26.02%, Disk I/O: 22315.95 MB/s
+ALERT: CPU Usage exceeded threshold with value: 7.20
+Metrics at 2024-09-09T20:11:07+05:00 - CPU: 2.26%, Memory: 27.73%, Disk I/O: 22317.60 MB/s
+Metrics at 2024-09-09T20:11:12+05:00 - CPU: 3.22%, Memory: 28.10%, Disk I/O: 22335.25 MB/s
+Metrics at 2024-09-09T20:11:17+05:00 - CPU: 1.68%, Memory: 28.47%, Disk I/O: 22361.41 MB/s
+Metrics at 2024-09-09T20:11:22+05:00 - CPU: 1.54%, Memory: 28.85%, Disk I/O: 22362.06 MB/s
+Metrics at 2024-09-09T20:11:27+05:00 - CPU: 1.54%, Memory: 29.22%, Disk I/O: 22363.67 MB/s
+Metrics at 2024-09-09T20:11:32+05:00 - CPU: 2.02%, Memory: 29.59%, Disk I/O: 22363.83 MB/s
+Metrics at 2024-09-09T20:11:37+05:00 - CPU: 7.41%, Memory: 29.96%, Disk I/O: 22365.48 MB/s
+ALERT: CPU Usage exceeded threshold with value: 7.41
+Metrics at 2024-09-09T20:11:43+05:00 - CPU: 2.20%, Memory: 31.60%, Disk I/O: 22382.96 MB/s
+Metrics at 2024-09-09T20:11:48+05:00 - CPU: 1.68%, Memory: 31.97%, Disk I/O: 22410.39 MB/s
+Metrics at 2024-09-09T20:11:53+05:00 - CPU: 1.53%, Memory: 32.34%, Disk I/O: 22411.22 MB/s
+Metrics at 2024-09-09T20:11:58+05:00 - CPU: 1.82%, Memory: 32.72%, Disk I/O: 22412.75 MB/s
+Metrics at 2024-09-09T20:12:03+05:00 - CPU: 1.57%, Memory: 33.09%, Disk I/O: 22412.95 MB/s
+Metrics at 2024-09-09T20:12:08+05:00 - CPU: 2.10%, Memory: 19.45%, Disk I/O: 22414.38 MB/s
+Metrics at 2024-09-09T20:12:13+05:00 - CPU: 1.69%, Memory: 19.82%, Disk I/O: 22415.82 MB/s
+Metrics at 2024-09-09T20:12:18+05:00 - CPU: 2.82%, Memory: 20.19%, Disk I/O: 22416.46 MB/s
+Metrics at 2024-09-09T20:12:23+05:00 - CPU: 1.58%, Memory: 20.56%, Disk I/O: 22416.93 MB/s
+Metrics at 2024-09-09T20:12:28+05:00 - CPU: 1.88%, Memory: 20.93%, Disk I/O: 22417.10 MB/s
+Metrics at 2024-09-09T20:12:33+05:00 - CPU: 1.66%, Memory: 21.30%, Disk I/O: 22417.70 MB/s
+Metrics at 2024-09-09T20:12:38+05:00 - CPU: 5.54%, Memory: 21.67%, Disk I/O: 22418.20 MB/s
+ALERT: CPU Usage exceeded threshold with value: 5.54
+Metrics at 2024-09-09T20:12:44+05:00 - CPU: 4.12%, Memory: 23.55%, Disk I/O: 22419.87 MB/s
+Metrics at 2024-09-09T20:12:49+05:00 - CPU: 4.49%, Memory: 23.92%, Disk I/O: 22431.90 MB/s
+Metrics at 2024-09-09T20:12:54+05:00 - CPU: 2.31%, Memory: 24.29%, Disk I/O: 22433.06 MB/s
+Metrics at 2024-09-09T20:12:59+05:00 - CPU: 4.99%, Memory: 24.66%, Disk I/O: 22434.12 MB/s
+Metrics at 2024-09-09T20:13:04+05:00 - CPU: 2.77%, Memory: 25.04%, Disk I/O: 22441.57 MB/s
+Metrics at 2024-09-09T20:13:09+05:00 - CPU: 2.36%, Memory: 25.41%, Disk I/O: 22443.78 MB/s
+Metrics at 2024-09-09T20:13:14+05:00 - CPU: 2.89%, Memory: 25.78%, Disk I/O: 22444.14 MB/s
+Metrics at 2024-09-09T20:13:19+05:00 - CPU: 2.56%, Memory: 26.15%, Disk I/O: 22450.82 MB/s
+Metrics at 2024-09-09T20:13:24+05:00 - CPU: 2.62%, Memory: 26.52%, Disk I/O: 22451.16 MB/s
+Metrics at 2024-09-09T20:13:29+05:00 - CPU: 2.41%, Memory: 26.89%, Disk I/O: 22452.64 MB/s
+Metrics at 2024-09-09T20:13:34+05:00 - CPU: 2.92%, Memory: 27.26%, Disk I/O: 22453.87 MB/s
+Metrics at 2024-09-09T20:13:39+05:00 - CPU: 7.16%, Memory: 27.64%, Disk I/O: 22461.14 MB/s
+ALERT: CPU Usage exceeded threshold with value: 7.16
+Metrics at 2024-09-09T20:13:45+05:00 - CPU: 4.98%, Memory: 29.39%, Disk I/O: 22479.00 MB/s
+Metrics at 2024-09-09T20:13:50+05:00 - CPU: 4.14%, Memory: 29.76%, Disk I/O: 22506.82 MB/s
+Metrics at 2024-09-09T20:13:55+05:00 - CPU: 2.02%, Memory: 30.13%, Disk I/O: 22507.39 MB/s
+Metrics at 2024-09-09T20:14:00+05:00 - CPU: 2.47%, Memory: 30.50%, Disk I/O: 22514.57 MB/s
+Metrics at 2024-09-09T20:14:05+05:00 - CPU: 3.93%, Memory: 18.19%, Disk I/O: 22515.55 MB/s
+Metrics at 2024-09-09T20:14:10+05:00 - CPU: 2.63%, Memory: 18.58%, Disk I/O: 22523.43 MB/s
+Metrics at 2024-09-09T20:14:15+05:00 - CPU: 2.17%, Memory: 18.95%, Disk I/O: 22524.63 MB/s
+Metrics at 2024-09-09T20:14:20+05:00 - CPU: 5.64%, Memory: 19.32%, Disk I/O: 22525.30 MB/s
+ALERT: CPU Usage exceeded threshold with value: 5.64
+Metrics at 2024-09-09T20:14:26+05:00 - CPU: 7.61%, Memory: 21.31%, Disk I/O: 22541.12 MB/s
+ALERT: CPU Usage exceeded threshold with value: 7.61
+Metrics at 2024-09-09T20:14:33+05:00 - CPU: 4.97%, Memory: 23.20%, Disk I/O: 22544.98 MB/s
+Metrics at 2024-09-09T20:14:38+05:00 - CPU: 4.11%, Memory: 23.57%, Disk I/O: 22554.99 MB/s
+Metrics at 2024-09-09T20:14:46+05:00 - CPU: 0.00%, Memory: 11.03%, Disk I/O: 22559.59 MB/s
+ALERT: Memory Usage exceeded threshold with value: 11.03
+ALERT: Disk I/O exceeded threshold with value: 22559.59
+Metrics at 2024-09-09T20:14:54+05:00 - CPU: 3.56%, Memory: 19.18%, Disk I/O: 22574.19 MB/s
+ALERT: Memory Usage exceeded threshold with value: 19.18
+ALERT: Disk I/O exceeded threshold with value: 22574.19
+Metrics at 2024-09-09T20:15:01+05:00 - CPU: 6.21%, Memory: 22.43%, Disk I/O: 22606.83 MB/s
+ALERT: CPU Usage exceeded threshold with value: 6.21
+ALERT: Memory Usage exceeded threshold with value: 22.43
+ALERT: Disk I/O exceeded threshold with value: 22606.83
+Metrics at 2024-09-09T20:15:11+05:00 - CPU: 3.05%, Memory: 27.11%, Disk I/O: 22637.57 MB/s
+ALERT: Memory Usage exceeded threshold with value: 27.11
+ALERT: Disk I/O exceeded threshold with value: 22637.57
+Metrics at 2024-09-09T20:15:18+05:00 - CPU: 2.78%, Memory: 21.38%, Disk I/O: 22638.46 MB/s
+ALERT: Memory Usage exceeded threshold with value: 21.38
+ALERT: Disk I/O exceeded threshold with value: 22638.46
+Metrics at 2024-09-09T20:15:26+05:00 - CPU: 3.03%, Memory: 24.74%, Disk I/O: 22640.16 MB/s
+ALERT: Memory Usage exceeded threshold with value: 24.74
+ALERT: Disk I/O exceeded threshold with value: 22640.16
+Metrics at 2024-09-09T20:15:33+05:00 - CPU: 2.77%, Memory: 26.86%, Disk I/O: 22641.42 MB/s
+ALERT: Memory Usage exceeded threshold with value: 26.86
+ALERT: Disk I/O exceeded threshold with value: 22641.42
+Metrics at 2024-09-09T20:15:41+05:00 - CPU: 7.38%, Memory: 29.92%, Disk I/O: 22643.34 MB/s
+ALERT: CPU Usage exceeded threshold with value: 7.38
+ALERT: Memory Usage exceeded threshold with value: 29.92
+Metrics at 2024-09-09T20:16:04+05:00 - CPU: 0.00%, Memory: 11.03%, Disk I/O: 22696.53 MB/s
+Metrics at 2024-09-09T20:16:12+05:00 - CPU: 0.00%, Memory: 11.04%, Disk I/O: 22698.97 MB/s
+Metrics at 2024-09-09T20:16:45+05:00 - CPU: 0.00%, Memory: 11.02%, Disk I/O: 22710.60 MB/s
+Metrics at 2024-09-09T20:17:31+05:00 - CPU: 0.00%, Memory: 10.62%, Disk I/O: 22768.70 MB/s
+Metrics at 2024-09-09T20:17:38+05:00 - CPU: 0.00%, Memory: 11.05%, Disk I/O: 22770.35 MB/s

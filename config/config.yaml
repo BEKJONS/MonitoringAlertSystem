@@ -1,5 +1,5 @@
 thresholds:
   cpu_usage: 5      # CPU usage threshold in percentage
-  memory_usage: 70   # Memory usage threshold in percentage
-  disk_io: 100000       # Disk I/O threshold in MB/s
+  memory_usage: 0   # Memory usage threshold in percentage
+  disk_io: 0       # Disk I/O threshold in MB/s
 interval: 5         # Monitoring interval in seconds
