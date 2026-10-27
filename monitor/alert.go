@@ -31,16 +31,16 @@ func CheckThresholds(metrics Metrics, config *Config) {
 func alert(metricType string, value float64) {
 	// Create an alert message with the metric type and its current value
 	message := fmt.Sprintf("ALERT: %s exceeded threshold with value: %.2f", metricType, value)
+	logToFile(message) // Log the alert message to a file
+
 	bots, err := bot.ConnectToTelegram()
 	if err != nil {
-		panic(err)
+		log.Printf("Telegram alert skipped: %v", err)
+		return
 	}
-
-	err = bot.SendMessageToAllUsers(bots, message)
-	if err != nil {
-		// Handle the error
+	if err := bot.SendMessageToAllUsers(bots, message); err != nil {
+		log.Printf("Telegram alert failed: %v", err)
 	}
-	logToFile(message) // Log the alert message to a file
 }
 
 // LogMetrics function logs the current metrics data to a log file
