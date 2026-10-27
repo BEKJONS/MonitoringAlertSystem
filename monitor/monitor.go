@@ -2,9 +2,11 @@ package monitor
 
 import (
 	"fmt"
+	"time"
+
 	"github.com/shirou/gopsutil/cpu"
 	"github.com/shirou/gopsutil/disk"
-	"runtime" // Provides functions to interact with the Go runtime environment
+	"github.com/shirou/gopsutil/mem"
 )
 
 // Metrics struct holds the collected data for CPU, memory, and disk I/O usage
@@ -29,7 +31,7 @@ func CollectMetrics() Metrics {
 	}
 }
 
-// getCPUUsage function calculates CPU usage (dummy implementation)
+// getCPUUsage function returns overall CPU usage as a percentage
 func getCPUUsage() float64 {
 	percent, err := cpu.Percent(0, false)
 	if err != nil {
@@ -38,15 +40,23 @@ func getCPUUsage() float64 {
 	return percent[0]
 }
 
-// getMemoryUsage function calculates memory usage using Go runtime's memory statistics
+// getMemoryUsage function returns the percentage of system memory in use
 func getMemoryUsage() float64 {
-	var m runtime.MemStats   // MemStats is a struct that holds runtime memory statistics
-	runtime.ReadMemStats(&m) // Read current memory stats into m
-	// Example: convert bytes to percentage of system memory (this is a simplified approach)
-	return float64(m.Alloc) / float64(m.Sys) * 100
+	v, err := mem.VirtualMemory()
+	if err != nil {
+		fmt.Println(err)
+		return 0.0
+	}
+	return v.UsedPercent
 }
 
-// getDiskIO function calculates disk I/O usage (dummy implementation)
+// Disk counters from the previous sample, used to turn cumulative bytes into a rate
+var (
+	lastDiskBytes uint64
+	lastDiskTime  time.Time
+)
+
+// getDiskIO function returns disk read+write throughput in MB/s since the previous sample
 func getDiskIO() float64 {
 	// Get disk I/O stats
 	io, err := disk.IOCounters()
@@ -63,12 +73,14 @@ func getDiskIO() float64 {
 		totalWriteBytes += v.WriteBytes
 	}
 
-	// Calculate disk I/O usage in percentage
+	// The counters are cumulative since boot, so compare with the previous sample
 	totalBytes := totalReadBytes + totalWriteBytes
-	if totalBytes == 0 {
-		return 0.0
+	now := time.Now()
+	prevBytes, prevTime := lastDiskBytes, lastDiskTime
+	lastDiskBytes, lastDiskTime = totalBytes, now
+	if prevTime.IsZero() || totalBytes < prevBytes {
+		return 0.0 // first sample, or the counters were reset
 	}
-	diskIOUsage := float64(totalBytes) / (1024 * 1024) // Convert to MB
 
-	return diskIOUsage
+	return float64(totalBytes-prevBytes) / (1024 * 1024) / now.Sub(prevTime).Seconds()
 }

@@ -102,6 +102,7 @@ github.com/savsgio/gotils/strings
 github.com/shirou/gopsutil/cpu
 github.com/shirou/gopsutil/disk
 github.com/shirou/gopsutil/internal/common
+github.com/shirou/gopsutil/mem
 # github.com/tklauser/go-sysconf v0.3.14
 ## explicit; go 1.18
 github.com/tklauser/go-sysconf
